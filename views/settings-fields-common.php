@@ -79,7 +79,7 @@ if (!defined('ABSPATH')) {
 		<ul>
 			<li>
 				<input type="checkbox" name="ssl_insecure_content_fixer[fix_specific][lcpwp]" id="fix_specific_lcpwp" value="1" <?php checked(!empty($options['fix_specific']['lcpwp'])); ?> />
-				<label for="fix_specific_lcpwp">List category posts with pagination</label>
+				<label for="fix_specific_lcpwp"><?php echo esc_html_x('List category posts with pagination', 'plugin fix settings', 'ssl-insecure-content-fixer'); ?></label>
 			</li>
 			<li>
 				<input type="checkbox" name="ssl_insecure_content_fixer[fix_specific][woo_https]" id="fix_specific_woo_https" value="1" <?php checked(!empty($options['fix_specific']['woo_https'])); ?> />
